@@ -1,0 +1,327 @@
+html{
+    scroll-behavior: smooth;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    background-image: url(https://cdn.pixabay.com/photo/2017/06/24/23/03/railway-2439189_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    border-radius: 1000px;
+    width: 150px;
+}
+
+.pro_name {
+    margin-top: 1%;
+    font-family: sans-serif;
+}
+
+.skills_brief {
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+.navbar {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    padding-top: 2%;
+}
+
+.navigation {
+    margin-left: auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding-left: 1em;
+}
+
+.profile_head {
+    color: white;
+    padding-top: 10%;
+}
+
+button {
+    background-color: #40A249;
+    color: white;
+    padding: 11px 35px;
+    margin: 5px 8px 5px 1px;
+    border: none;
+    cursor: pointer;
+
+    border-radius: 5px;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.head_btn1 {
+    padding: 11px 60px 11px 60px;
+    margin-top: 1%;
+}
+
+#header-icons {
+    border: 1px solid gray;
+    background-color: gray;
+    color: white;
+    border-radius: 100%;
+    padding: 12px 15px 12px 15px;
+    position: relative;
+    top: 30px;
+    margin-top: 40px;
+}
+
+.info {
+    display: flex;
+    margin-top: 100px;
+    width: 60%;
+    margin: auto;
+    font-size: 14px;
+    margin-top: 100px;
+    box-shadow: 2px 2px 15px #aaaaaa;
+    padding-left: 15px;
+    font-family: sans-serif;
+    padding-bottom: 10px;
+}
+
+.about {
+    width: 49%;
+    line-height: 40px;
+    padding-top: 10px;
+}
+
+.about_p,
+.basic_head_details {
+    color: #2c2c2c;
+    font-size: 17px;
+}
+
+.basic_info_main {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.basic {
+    display: flex;
+    line-height: 40px;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.basic_head_details {
+    padding-left: 30px
+}
+
+.basic_head {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.74em;
+    font-family: sans-serif;
+    margin-top: 100px;
+    margin-bottom: 1.5rem
+}
+
+.prfsnl_skils {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    box-shadow: 2px 2px 15px #aaaaaa;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+.prfsnl_skils_left,
+.prfsnl_skils_right {
+    width: 50%;
+    font-size: 15px;
+    padding: 10px;
+    color: #378C3F;
+}
+
+.html,
+.css,
+.netwrk,
+.photoshop,
+.linux,
+.hrdwre {
+    display: flex;
+    padding-top: 10px;
+    font-family: sans-serif;
+}
+
+.html_per,
+.css_per,
+.netwrk_per,
+.photoshop_per,
+.linux_per,
+.hrdwre_per {
+    margin-left: auto;
+    padding-top: 10px;
+}
+
+progress {
+    width: 100%;
+    background-color: #eee;
+    height: 8px;
+}
+
+.exp1_container,
+.exp2_container,
+.exp3_container {
+    width: 60%;
+    display: flex;
+    margin: auto;
+    box-shadow: 2px 2px 15px #aaaaaa;
+}
+
+.fontend_dur,
+.webdev_dur,
+.intern_dur {
+    width: 25%;
+    padding: 50px;
+    background-color: #378C3F;
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.fontend_details,
+.webdev_details,
+.intern_details {
+    width: 75%;
+    margin: auto;
+    padding: 25px;
+    padding-left: 40px;
+}
+
+.fontend_des,
+.webdev_des,
+.intern_des {
+    padding-top: 10px;
+    line-height: 1.25em;
+    font-size: 20px;
+}
+
+.work_dur {
+    font-size: 16px;
+}
+
+.work_pro {
+    font-size: 22px;
+    padding-top: 10px;
+}
+
+.exp2_container,
+.exp3_container {
+    margin-top: 2%;
+}
+
+.edu_board {
+    /* padding-top: 5px; */
+    font-weight: bolder;
+    color: rgb(179, 178, 178);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+.map {
+    margin-top: 5%;
+    position: relative;
+}
+.form_container {
+    
+} 
+.form_container{
+    position: absolute;
+    top: 120px;
+    left: 600px;
+    width: 40%;
+    margin: auto;
+    padding: 1%;
+    box-shadow: 5px 5px 12px 2px #aaaaaa;
+    border-radius: 5px;
+    background-color: white;
+}
+.form{
+    display: flex;
+    font-family: sans-serif;
+
+}
+.form-title{
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.form-contact-details{
+    width: 50%;
+}
+.input-area{
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+}
+input{
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+}
+.form-contact-details{
+    font-size: 17px;
+    margin-top: 10px;
+    line-height: 1.74em;
+}
+.form-labels{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.input-icons{
+    border-radius: 50px;
+    border: 1px solid gray;
+    padding-left: 15px;
+    margin-top: 20px;
+    color: rgb(82, 82, 82);
+}
+.textarea{
+    border-bottom: 1px solid gray;
+    height: 70px;
+    margin-bottom: 20px;
+}
+*:focus{
+    outline: none;
+}
+footer{
+    font-size: 30px;
+    font-weight: bolder;
+    width: 100%;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer_reserved{
+    font-size: 18px;
+    color: gray;
+    margin-top: 10px;
+}
